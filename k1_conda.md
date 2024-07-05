@@ -2,20 +2,25 @@
 
 ### conda venv
 *create a virtual environment with the help of conda so that all your required files should be placed at one place
+
+
 ```conda create -p venv python==3.10```
+
 ```conda activate venv/```
+
 ```conda deactivate```
 
 ### requirements.txt
 *all the packages used in this project will be listed here
+
 ```pip install -r requirements.txt```
 
 ### Jupyter notebook in vscode
 * we need ipykernel to run ipynb
+
 ```pip install ipykernel```
 
 ## Environment Management
-
 ### Creating an environment
 - Conda: `conda create -n or -p myenv python=3.12`
 - Python venv: `python -m venv myenv`
